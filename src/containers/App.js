@@ -33,7 +33,7 @@ class App extends Component {
       return robot.name.toLowerCase().includes(searchField.toLowerCase())
     })
     return isPending ? <h1>Cargando</h1>
-      : (<div className='tc'>
+      : (<div className='tc mt0'>
         <h1 className='f1'>RoboFriends</h1>
         <SearchBox searchChange={onSearchChange} />
         <Scroll>
